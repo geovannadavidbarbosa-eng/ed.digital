@@ -1,13 +1,12 @@
-body {
-    background-color: rgb(213, 160, 229);
-    color: hsl(0, 0%, 100%);
+body{
+    background-color: rgb(138, 185, 150);
+    color: #000000;
     font-family: Arial, sans-serif;
-    margin: 0;
 }
 
-header {
-    background-color: rgb(213, 160, 229);
-    color: #ffffff;
+header { 
+    background-color: rgb(138, 185, 150);
+    color: rgb(5, 0, 0);
     text-align: center;
     padding: 30px;
 }
@@ -15,34 +14,13 @@ header {
 h1 {
     font-size: 36px;
 }
-
-h2 {
-    color: red;
+h2{
+    color: #c5b3c1c9;
 }
-
 p {
     font-size: 18px;
     line-height: 1.6;
 }
-
-nav {
-    margin-top: 20px;
-}
-
-nav a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    background-color: #9b4d83;
-    padding: 10px 15px;
-    border-radius: 8px;
-    margin: 5px;
-    display: inline-block;
-}
-
-nav a:hover {
-    background-color: #c77dff
-}
-
 main {
     width: 80%;
     margin: auto;
@@ -69,23 +47,39 @@ figcaption {
     color: #555555;
     margin-top: 8px;
 }
-
-.card {
-    background-color: #f3d9fa;
-    padding: 15px;
+ .card {
+    background-color:#8d24aa;
+    padding:15px;
     margin: 15px 0;
-    border-left: 6px solid #6b2d5c;
-    border-radius: 10px;
-}
+    border-left:6px  solid #6d2d5cborder-radius: 10px;
+ }
 
-.card h3 {
+ .card h3 {
     margin-top: 0;
-}
-
+ }
 footer {
     background-color: #222222;
-    color: rgb(0, 0, 0);
+    color:white;
     text-align: center;
-    padding: 20px;
-    margin-top: 30px;
+    padding:20px;
+    margin-top: 30px
 }
+button{
+    background-color:rgb(5, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color :#8d24aa;
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin:20px auto;
+}
+
