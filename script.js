@@ -6,7 +6,8 @@ function curtir(){
     const contador = botaoCurtir.querySelector("span");
     if(curtiu === false){
         contador.textContent++;
-        curtiu = true;}
+        curtiu = true;
+    }
         else{
             contador.textContent--;
             curtiu = false;
@@ -19,5 +20,6 @@ function curtir(){
 const btnTema = document.querySelector(".btn-tema");
 btnTema.addEventListener("click", mudarTema);
 function mudarTema(){
-    document.body.classList.toggle("tema-escuro"); 
+    document.body.classList.toggle("tema-escuro");
+   
 }
